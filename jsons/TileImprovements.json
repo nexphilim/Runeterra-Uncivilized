@@ -4,7 +4,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Can be built outside your borders",
-			"<upon turn end> remove [poppyAbilityCentre] improvements from this tile"
+			"Remove [poppyAbilityCentre] improvements from this tile <upon turn end>"
 		]
 	}
 ]
