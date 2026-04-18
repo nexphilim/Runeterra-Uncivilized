@@ -33,7 +33,8 @@
 		"unbuildable": true,
 		"occursOn": ["Desert","Mountain","Snow","Coast","Lakes","Ocean","Tundra", "Plains", "Grassland", "Hill"],
 		"uniques": [
-			"A Region is formed with at least [100]% [Air] tiles, with priority [3]"
+			"Occurs at temperature between [0.0] and [1.0] and humidity between [0.0] and [1.0]",
+			"A Region is formed with at least [100]% [Air] tiles, with priority [1]"
 		]
 	}
 ]
