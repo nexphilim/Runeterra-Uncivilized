@@ -1,5 +1,6 @@
 [
 	{
+		
 		"name": "Petricite Forest",
 		"type": "TerrainFeature",
 		"production": 2,
@@ -23,6 +24,17 @@
 			{
 				"text": "Colossal, fossilized-like trees that possess the ability to absorb and store magic."
 			}
+		]
+	},
+
+	{
+		"name": "Air",
+		"type": "TerrainFeature",
+		"production": 1,
+		"unbuildable": true,
+		"occursOn": ["All"],
+		"uniques": [
+			"A Region is formed with at least [100]% [Air] tiles, with priority [3]"
 		]
 	}
 ]
