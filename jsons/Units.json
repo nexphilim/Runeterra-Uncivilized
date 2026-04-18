@@ -9,6 +9,6 @@
 		"range": 1,
 		"cost": 0,
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"promotions": ["Ignore terrain cost"]
+		"promotions": ["poppyAbilityPromotion"]
 	}
 ]
