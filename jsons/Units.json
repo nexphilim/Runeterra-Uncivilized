@@ -8,7 +8,7 @@
 		"strength": 50,
 		"range": 1,
 		"cost": 0,
-		"uniques": ["<upon damaging a [All] unit>",
-					"Can instantly construct a [poppyAbilityCentre] improvement <for [0] movement>"],
+		"uniques": ["<upon damaging a [All] unit> [Target unit] gains the [poppyAbilityTargetPromotion] promotion",
+					"Can instantly construct a [poppyAbilityCentre] improvement <for [0] movement>"]
 	}
 ]
