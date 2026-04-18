@@ -1,40 +1,785 @@
 [
+	////////////////////////TEMPLATE
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "EmpireName",
+		"leaderName": "LeaderName",
+		"adjective": ["Adjective"],
+		"startBias": ["Tundra"],
+		"personality": "personalityType",
+		"preferredVictoryType":"Scientific",
 
-		"hateHello": "What do you want now?",
-		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-		"denounced": "The accusations of primitive lifeforms are beneath us.",
-		"declaringfriendship": "Let us become like friends!",
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "ReligionName",
+		"uniqueName": "UniqueName",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	////////////////////////////NATIONS
+
+	{
+		"name": "Bilgewater",
+		"leaderName": "Summoner",
+		"adjective": ["Bilgerat"],
+		"startBias": ["Coast"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [34, 45, 37],
+		"innerColor": [159, 136, 120],
+		//"favoredReligion": "ReligionName",
+		"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Demacia",
+		"leaderName": "Summoner",
+		"adjective": ["Demacian"],
+		"startBias": ["Petricite Forest"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [153, 155, 157],
+		"innerColor": [19, 21, 64],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Freljord",
+		"leaderName": "Summoner",
+		"adjective": ["Freljordian"],
+		"startBias": ["Tundra"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [212, 241, 247],
+		"innerColor": [44, 160, 231],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Ionia",
+		"leaderName": "Summoner",
+		"adjective": ["Ionian"],
+		"startBias": ["Forest"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [24, 38, 38],
+		"innerColor": [255, 192, 203],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Ixtal",
+		"leaderName": "Summoner",
+		"adjective": ["Ixtali"],
+		"startBias": ["Jungle"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [88, 123, 45],
+		"innerColor": [53, 221, 214],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+	
+	{
+		"name": "Noxus",
+		"leaderName": "Summoner",
+		"adjective": ["Noxian"],
+		"startBias": ["River"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [46, 47, 69],
+		"innerColor": [96, 2, 4],
+		//"favoredReligion": "ReligionName",
+		"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Piltover & Zaun",
+		"leaderName": "Summoner",
+		"adjective": ["Piltovan"],
+		"startBias": ["Coast"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [194, 153, 88],
+		"innerColor": [59, 71, 43],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Shadow Isles",
+		"leaderName": "Summoner",
+		"adjective": ["Cursed"],
+		"startBias": ["Coast"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [35, 91, 79],
+		"innerColor": [85, 240, 244],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Targon",
+		"leaderName": "Summoner",
+		"adjective": ["Targonian"],
+		"startBias": ["Mount Targon"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [28, 29, 57],
+		"innerColor": [201, 193, 214],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+
+	{
+		"name": "Shurima",
+		"leaderName": "Summoner",
+		"adjective": ["Shuriman"],
+		"startBias": ["Desert"],
+		//"personality": "personalityType",
+		//"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
+		"outerColor": [122, 91, 51],
+		"innerColor": [224, 176, 13],
+		//"favoredReligion": "ReligionName",
+		//"uniqueName": "Death and Taxes",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
 	}
 ]
