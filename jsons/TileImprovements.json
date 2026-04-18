@@ -1,10 +1,9 @@
 [
 	{
-		"name": "poppyAbilityCentre",
-		"terrainsCanBeBuiltOn": ["All"],
+		"name": "placeHolder",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Can be built outside your borders",
-			"Remove [poppyAbilityCentre] improvements from this tile <upon turn end>"
+			"Can be built outside your borders"
 		]
 	}
 ]
