@@ -1,9 +1,9 @@
 [
 	//CHAMPION ABILITIES
 	{
-		"name": "abilityPromotion",
+		"name": "poppyAbilityTargetPromotion",
 		"uniques": [
-			"Turn this tile into a [Jungle] tile <for [0] movement>"
+			"Turn this tile into a [poppyAbilityCentre] tile <upon being promoted>"
 		]
 	}
 ]

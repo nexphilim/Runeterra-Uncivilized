@@ -8,7 +8,7 @@
 		"strength": 50,
 		"range": 1,
 		"cost": 0,
-		"uniques": ["[+33]% Strength <vs [Armored] units>",
+		"uniques": ["<upon damaging a [All] unit>",
 					"Can instantly construct a [poppyAbilityCentre] improvement <for [0] movement>"],
 	}
 ]
