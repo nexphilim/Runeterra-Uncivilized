@@ -9,7 +9,6 @@
 		"range": 1,
 		"cost": 0,
 		"uniques": ["[+33]% Strength <vs [Armored] units>",
-					"Turn this tile into a [Forest] tile <for [0] movement>"],
-		"promotions": ["poppyAbilityPromotion"]
+					"Can instantly construct a [poppyAbilityCentre] improvement <for [0] movement>"],
 	}
 ]
