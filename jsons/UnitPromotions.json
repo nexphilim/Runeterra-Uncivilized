@@ -3,7 +3,8 @@
 	{
 		"name": "poppyAbilityTargetPromotion",
 		"uniques": [
-			"Turn this tile into a [poppyAbilityTerrain] tile  <upon entering combat>"
+			"Turn this tile into a [poppyAbilityTerrain] tile  <upon entering combat>",
+			"Triggers the following global alert: [COMBAT ENTERED] <upon entering combat>"
 		]
 	}
 ]
