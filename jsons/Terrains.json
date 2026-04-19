@@ -7,7 +7,7 @@
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques": ["Becomes [{Ocean} {Air}] when adjacent to [All]"]
+		"uniques": ["Becomes [Air] when adjacent to [All]"]
 	},
 	{
 		"name": "Coast",
@@ -17,7 +17,7 @@
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
 		"uniques": [
-			"Becomes [{Coast} {Air}] when adjacent to [All]",
+			"Becomes [Air] when adjacent to [All]",
 			"[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
@@ -170,14 +170,15 @@
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>"]
 	},
-
+	
 	///////////////////////////////////////////// MOD TERRAIN FEATURES
 
 	{
 		"name": "Air",
 		"type": "TerrainFeature",
 		"unbuildable": true,
-		"occursOn": ["Desert","Mountain","Snow","Coast","Lakes","Ocean","Tundra", "Plains", "Grassland", "Hill"]
+		"occursOn": ["Desert","Mountain","Snow","Coast","Lakes","Ocean","Tundra", "Plains", "Grassland", "Hill"],
+		"uniques": ["Neighboring tiles will convert to [Air]"]
 	},
 	{
 		
