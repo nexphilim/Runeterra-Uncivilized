@@ -34,7 +34,7 @@
 		"occursOn": ["Desert","Mountain","Snow","Coast","Lakes","Ocean","Tundra", "Plains", "Grassland", "Hill"],
 		"uniques": [
 			"Occurs at temperature between [0.0] and [1.0] and humidity between [0.0] and [1.0]",
-			"Has an elevation of [-100] for visibility calculations",
+			"Has an elevation of [100] for visibility calculations",
 			"A Region is formed with at least [100]% [Air] tiles, with priority [100]"
 		]
 	}
