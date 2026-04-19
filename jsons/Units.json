@@ -8,7 +8,7 @@
 		"strength": 50,
 		"range": 1,
 		"cost": 0,
-		"uniques": ["[Target Unit] gains the [poppyAbilityTargetPromotion] promotion <upon entering combat>",
+		"uniques": ["[Target Unit] gains the [poppyAbilityTargetPromotion] promotion",
 					"Can instantly construct a [poppyAbilityCentre] improvement <for [0] movement>"]
 	}
 ]
