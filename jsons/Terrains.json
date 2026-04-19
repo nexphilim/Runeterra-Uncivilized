@@ -180,6 +180,12 @@
 		"occursOn": ["Desert","Mountain","Snow","Coast","Lakes","Ocean","Tundra", "Plains", "Grassland", "Hill"]
 	},
 	{
+		"name": "poppyAbilityTerrain",
+		"type": "TerrainFeature",
+		"unbuildable": true,
+		"occursOn": ["Desert","Mountain","Snow","Coast","Lakes","Ocean","Tundra", "Plains", "Grassland", "Hill"]
+	},
+	{
 		
 		"name": "Petricite Forest",
 		"type": "TerrainFeature",

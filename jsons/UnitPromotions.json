@@ -3,7 +3,7 @@
 	{
 		"name": "poppyAbilityTargetPromotion",
 		"uniques": [
-			""
+			"Turn this tile into a [poppyAbilityTerrain] tile"
 		]
 	}
 ]
