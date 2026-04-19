@@ -178,7 +178,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Desert","Mountain","Snow","Coast","Lakes","Ocean","Tundra", "Plains", "Grassland", "Hill"],
-		"uniques": ["Neighboring tiles will convert to [Air]"]
+		"uniques": ["Neighboring tiles will convert to [Air] <upon turn start>"]
 	},
 	{
 		
