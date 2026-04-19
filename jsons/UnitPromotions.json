@@ -3,7 +3,7 @@
 	{
 		"name": "poppyAbilityTargetPromotion",
 		"uniques": [
-			"Turn this tile into a [Mountain] tile <upon entering combat>"
+			"Turn this tile into a [poppyAbilityTerrain] tile <upon entering combat>"
 		]
 	}
 ]
